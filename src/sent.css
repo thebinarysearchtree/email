@@ -1,0 +1,19 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #e5dada;
+}
+
+.row {
+  display: flex;
+  padding: 4px;
+  border-bottom: 1px solid #e5dada;
+}
+
+.to, .subject {
+  width: 200px;
+}
+
+.message {
+  width: 300px;
+}

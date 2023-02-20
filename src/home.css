@@ -1,0 +1,39 @@
+main {
+  display: flex;
+}
+
+.form {
+  margin-right: 32px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-right: 8px;
+  background-color: white;
+  border-style: none;
+  border: 1px solid rgb(189, 162, 162);
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+
+.active {
+  background-color:rgb(198, 219, 198);
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.left, .right {
+  display: flex;
+}
+
+input {
+  margin-right: 8px;
+}

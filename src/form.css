@@ -1,0 +1,26 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 288px;
+}
+
+form div {
+  display: flex;
+  padding-bottom: 8px;
+}
+
+label {
+  width: 80px;
+}
+
+input, textarea {
+  flex: 1;
+}
+
+button {
+  align-self: flex-end;
+}
+
+p {
+  color: red;
+}
